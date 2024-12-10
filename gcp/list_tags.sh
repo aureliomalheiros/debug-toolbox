@@ -1,6 +1,6 @@
 #!/bin/bash
 
-TAG_NAME="cost-center"
+TAG_NAME="YOUR_TAG"
 projects=$(gcloud projects list --sort-by=projectId --format="value(projectId)")
 
 for project in $projects; do
