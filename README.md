@@ -1,2 +1,6 @@
-# tools
-In this repository I use to create my tools for my trobleshooting or tests.
+# Debug Tool BOX
+
+![tshoot-tool-box](img/tshoot-meme.jpg)
+
+This repository serves as a comprehensive toolkit for troubleshooting and debugging across various platforms and environments. It contains scripts, utilities, and resources to assist in diagnosing and resolving technical issues effectively.
+
