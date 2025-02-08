@@ -1,4 +1,4 @@
-FROM debian:bookworm-slim
+FROM debian:12.9-slim
 
 RUN apt update && apt install -y \
     python3 \
@@ -22,4 +22,4 @@ RUN apt update && apt install -y \
     vim \
     && rm -rf /var/lib/apt/lists/* 
 
-CMD ["tail", "-f", "/dev/null"]
+ENTRYPOINT [ "tail", "-f", "/dev/null" ]
